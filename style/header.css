@@ -1,0 +1,146 @@
+body {
+    margin: auto;
+    direction: ltr;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/*  */
+/*  */
+header {
+    /* border: 1px solid white; */
+    width: 1440px;
+    height: 56px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>.lefthead {
+    /* border: 1px solid red; */
+    width: 170px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* header>.lefthead>button {} */
+
+/* header>.lefthead>button>img {} */
+
+header>.lefthead>img {
+    /* border: 1px solid white; */
+    width: 120px;
+    height: 56px;
+}
+
+header>.centerhead {
+    /* border: 1px solid red; */
+    width: 480px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>.centerhead>.searchbox {
+    /* border: 1px solid red; */
+    width: 430px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: center;
+            align-items: center; */
+    outline-color: blue;
+}
+
+header>.centerhead>.searchbox>input {
+    /* border: 1px solid #fff; */
+    width: 366px;
+    height: 40px;
+    background-color: black;
+    padding-left: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 30px 0 0 30px;
+}
+
+header>.centerhead>.searchbox>button {
+    /* border: 1px solid blue; */
+    width: 64px;
+    height: 40px;
+    border-radius: 0 30px 30px 0;
+    background-color: rgb(34, 34, 34);
+}
+
+header>.centerhead>.mic {
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+header>.righthead {
+    /* border: 1px solid white; */
+    width: 200px;
+    height: 56px;
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+header>.righthead>.avatar>img {
+    border-radius: 40px;
+}
+
+/* 
+        header>.righthead>.notif {}
+
+        header>.righthead>.apps {}
+
+        header>.righthead>.upvideo {} */
+
+/* side menu */
